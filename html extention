@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8>
+<neta http-equiv= "X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href= "https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+<title> Usman's Google extention</title>
+<link rel= "stylesheet" href= "https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+<style>
+html,
+body
+{
+width: 350px;
+margin:0;
+}
+body 
+{
+    background-color: #ededed;
+}
+header
+{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+}
+header span
+{
+    margin-left: 10px;
+    font-size: 24px;
+    font-family: 'New Tegomin', serif;
+    color:blue;
+}
+header img
+{
+border-radius:50%;
+width: 40px;
+}
+p{
+    color: #6e6e6e;
+    padding: 0 12px;
+}
+.social-links
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+}
+</style>
+</head>
+
+<body>
+<header id= "header">
+<img src= "icons/icon.png" alt="M.Usman Shahid"><span>Social Links Extension</span>
+</header>
+<hr>
+ <p>This Extension will help you to reach out my profiles easily</p>
+ <hr>
+    <div class="social-links">
+<a href="https://web.facebook.com/profile.php?id=100010577106243"><i style="color: blue;" class="fab fa-facebook"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/usman-shahid-3b58961b9/"><i style="color: rgb(14, 167, 255);" class="fab fa-twitter"></i></a>
+        <a target="_blank" href="https://twitter.com/Muhamma92628606"><i style="color: rgb(0, 0, 0);" class="fab fa-github"></i></a>
+        <a target="_blank" href="https://github.com/usmanSHh/DoubleU"><i style="color: rgb(0, 140, 255);" class="fab fa-linkedin"></i></a>
+        <a target="_blank" href="mailto:sland832@gmail.com"><i style="color: rgb(255, 0, 0);" class="far fa-envelope"></i></a>
+    </div>
+</body>
+
+</html>
